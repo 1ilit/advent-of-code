@@ -4,7 +4,7 @@
 #include <sstream>
 
 void solve_p1() {
-    std::ifstream in("input_p1.txt");
+    std::ifstream in("input.txt");
     std::ofstream out("output_p1.txt");
 
     if (!in.is_open()) {
@@ -62,7 +62,7 @@ void solve_p1() {
 }
 
 void solve_p2() {
-    std::ifstream in("input_p2.txt");
+    std::ifstream in("input.txt");
     std::ofstream out("output_p2.txt");
 
     if (!in.is_open()) {
